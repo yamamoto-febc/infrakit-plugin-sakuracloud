@@ -30,9 +30,9 @@ $ infrakit/cli group --name group watch <<EOF
             "Properties": {
                 "Size": 1,
                 "UserData": [
-                    "sudo apt-get update -y",
-                    "sudo apt-get install -y nginx",
-                    "sudo service nginx start"
+                    "yum update -y",
+                    "yum install -y httpd",
+                    "service httpd start"
                 ],
 
                 "Labels": {
