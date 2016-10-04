@@ -1,0 +1,90 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "2avCvSn0XonfApKKuTMyiQmk7s0=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "3ec0642a7fb6488f65b06f9040adc67e3990296a",
+			"revisionTime": "2016-08-29T20:23:21Z"
+		},
+		{
+			"checksumSHA1": "58ltla62pYAN4aayc4iuDUcSou0=",
+			"path": "github.com/docker/infrakit/plugin",
+			"revision": "93d60e9aef75b9d6da58a0f80f68a2b7035131b4",
+			"revisionTime": "2016-10-04T20:51:31Z"
+		},
+		{
+			"checksumSHA1": "ZNixlexkmQcU3mB/80DV45ZupNU=",
+			"path": "github.com/docker/infrakit/plugin/util",
+			"revision": "93d60e9aef75b9d6da58a0f80f68a2b7035131b4",
+			"revisionTime": "2016-10-04T20:51:31Z"
+		},
+		{
+			"checksumSHA1": "sWDxd7ySKkEq04yjCSdTtn4BQ+w=",
+			"path": "github.com/docker/infrakit/spi/http/instance",
+			"revision": "93d60e9aef75b9d6da58a0f80f68a2b7035131b4",
+			"revisionTime": "2016-10-04T20:51:31Z"
+		},
+		{
+			"checksumSHA1": "nc6Vg6zSUhuMB5fC0aaB/m36KiQ=",
+			"path": "github.com/docker/infrakit/spi/instance",
+			"revision": "93d60e9aef75b9d6da58a0f80f68a2b7035131b4",
+			"revisionTime": "2016-10-04T20:51:31Z"
+		},
+		{
+			"checksumSHA1": "g/V4qrXjUGG9B+e3hB+4NAYJ5Gs=",
+			"path": "github.com/gorilla/context",
+			"revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
+			"revisionTime": "2016-08-17T18:46:32Z"
+		},
+		{
+			"checksumSHA1": "urMd7A9QPAJYY0GZJL9qBhlUmD8=",
+			"path": "github.com/gorilla/mux",
+			"revision": "757bef944d0f21880861c2dd9c871ca543023cba",
+			"revisionTime": "2016-09-20T23:08:13Z"
+		},
+		{
+			"checksumSHA1": "40vJyUB4ezQSn/NSadsKEOrudMc=",
+			"path": "github.com/inconshreveable/mousetrap",
+			"revision": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75",
+			"revisionTime": "2014-10-17T20:07:13Z"
+		},
+		{
+			"checksumSHA1": "fEGgcE+iSzLkxdrbRj7j/vV7a7E=",
+			"path": "github.com/spf13/cobra",
+			"revision": "9c28e4bbd74e5c3ed7aacbc552b2cab7cfdfe744",
+			"revisionTime": "2016-08-30T17:49:25Z"
+		},
+		{
+			"checksumSHA1": "b1FgvXRMwcr3D1litcrDNxgowBw=",
+			"path": "github.com/spf13/pflag",
+			"revision": "c7e63cf4530bcd3ba943729cee0efeff2ebea63f",
+			"revisionTime": "2016-09-15T15:31:01Z"
+		},
+		{
+			"checksumSHA1": "iQcXhNQhXhxeQz6+/kTCi5TGqhg=",
+			"path": "github.com/yamamoto-febc/libsacloud/api",
+			"revision": "cbb59531b7f4f0985cddd12997a6d2998c21ae79",
+			"revisionTime": "2016-10-04T13:32:05Z",
+			"version": "1.0.0",
+			"versionExact": "1.0.0"
+		},
+		{
+			"checksumSHA1": "9LPi+2hWws37oflwb5MBhiSC6d4=",
+			"path": "github.com/yamamoto-febc/libsacloud/sacloud",
+			"revision": "cbb59531b7f4f0985cddd12997a6d2998c21ae79",
+			"revisionTime": "2016-10-04T13:32:05Z",
+			"version": "1.0.0",
+			"versionExact": "1.0.0"
+		},
+		{
+			"checksumSHA1": "vu7njn8O4vhFtmgGWntwjA2NAbk=",
+			"origin": "github.com/docker/infrakit/vendor/golang.org/x/sys/unix",
+			"path": "golang.org/x/sys/unix",
+			"revision": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9",
+			"revisionTime": "2016-09-14T20:33:16Z"
+		}
+	],
+	"rootPath": "github.com/yamamoto-febc/infrakit-plugin-sakuracloud"
+}
