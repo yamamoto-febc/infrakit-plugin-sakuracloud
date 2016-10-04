@@ -171,7 +171,21 @@ func (v *plugin) Destroy(id instance.ID) error {
 	if err != nil {
 		return fmt.Errorf("Failed on destroy server : %s", err)
 	}
+
 	if server != nil {
+
+		if server.Instance.IsUp() {
+			_, err := client.Server.Stop(server.ID)
+			if err != nil {
+				return fmt.Errorf("Failed on destroy server : %s", err)
+			}
+
+			err = client.Server.SleepUntilDown(server.ID, 10*time.Minute)
+			if err != nil {
+				return fmt.Errorf("Failed on destroy server : %s", err)
+			}
+
+		}
 
 		_, err := client.Server.DeleteWithDisk(server.ID, []int64{server.Disks[0].ID})
 		if err != nil {
