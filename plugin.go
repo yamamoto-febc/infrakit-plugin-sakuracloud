@@ -50,7 +50,9 @@ func (v *plugin) Validate(req json.RawMessage) error {
 	}
 
 	prop := &schema{
-		Zone: "tk1a",
+		Core:   1,
+		Memory: 1,
+		Zone:   "tk1a",
 	}
 	if err := json.Unmarshal([]byte(req), &prop); err != nil {
 		return fmt.Errorf("Invalid instance properties: %s", err)
@@ -73,7 +75,7 @@ func (v *plugin) Validate(req json.RawMessage) error {
 
 	plan, err := client.Product.Server.GetBySpec(prop.Core, prop.Memory)
 	if err != nil {
-		return fmt.Errorf("Invalid instance properties: %s", "Core or Memory is invalid")
+		return fmt.Errorf("Invalid instance properties: Core or Memory is invalid : %s", err)
 	}
 
 	if plan == nil {
